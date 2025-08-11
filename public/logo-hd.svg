@@ -1,0 +1,90 @@
+<svg width="400" height="120" viewBox="0 0 400 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with enhanced gradient -->
+  <defs>
+    <linearGradient id="bgGradientHD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#2a2a2a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradientHD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c4b689;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d4c699;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b4a679;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glowHD" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadowHD" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Main background with shadow -->
+  <rect width="400" height="120" rx="16" fill="url(#bgGradientHD)" stroke="url(#goldGradientHD)" stroke-width="2" filter="url(#shadowHD)"/>
+  
+  <!-- RTX Text - Enhanced typography -->
+  <text x="40" y="48" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="url(#goldGradientHD)" filter="url(#glowHD)" letter-spacing="2">RTX</text>
+  
+  <!-- Infrastructure Text - Enhanced spacing -->
+  <text x="40" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="600" fill="url(#goldGradientHD)" letter-spacing="2.5">INFRASTRUCTURE</text>
+  
+  <!-- Enhanced Architectural Elements -->
+  <g transform="translate(280, 30)">
+    <!-- Main Building Structure -->
+    <rect x="0" y="35" width="35" height="45" fill="url(#goldGradientHD)" rx="3" filter="url(#shadowHD)"/>
+    
+    <!-- Building Windows with enhanced detail -->
+    <rect x="4" y="42" width="7" height="7" fill="#1a1a1a" rx="1.5"/>
+    <rect x="24" y="42" width="7" height="7" fill="#1a1a1a" rx="1.5"/>
+    <rect x="4" y="55" width="7" height="7" fill="#1a1a1a" rx="1.5"/>
+    <rect x="24" y="55" width="7" height="7" fill="#1a1a1a" rx="1.5"/>
+    
+    <!-- Building Door -->
+    <rect x="14" y="62" width="7" height="18" fill="#1a1a1a" rx="1.5"/>
+    
+    <!-- Building Top/Roof -->
+    <polygon points="0,35 17.5,20 35,35" fill="url(#goldGradientHD)"/>
+    
+    <!-- Enhanced Antenna/Communication Tower -->
+    <line x1="17.5" y1="20" x2="17.5" y2="8" stroke="url(#goldGradientHD)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="17.5" cy="8" r="3" fill="url(#goldGradientHD)"/>
+    
+    <!-- Decorative Elements -->
+    <circle cx="7" cy="65" r="1.5" fill="#1a1a1a"/>
+    <circle cx="28" cy="65" r="1.5" fill="#1a1a1a"/>
+    
+    <!-- Additional architectural details -->
+    <line x1="0" y1="35" x2="35" y2="35" stroke="#1a1a1a" stroke-width="1" opacity="0.3"/>
+    <line x1="0" y1="50" x2="35" y2="50" stroke="#1a1a1a" stroke-width="1" opacity="0.2"/>
+  </g>
+  
+  <!-- Enhanced Decorative Line -->
+  <line x1="40" y1="90" x2="250" y2="90" stroke="url(#goldGradientHD)" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Enhanced architectural icons -->
+  <g transform="translate(320, 20)">
+    <!-- Crane/Construction element -->
+    <line x1="0" y1="20" x2="0" y2="8" stroke="url(#goldGradientHD)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="0" y1="8" x2="12" y2="8" stroke="url(#goldGradientHD)" stroke-width="2" stroke-linecap="round"/>
+    <line x1="12" y1="8" x2="12" y2="20" stroke="url(#goldGradientHD)" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="6" cy="14" r="2" fill="url(#goldGradientHD)"/>
+    
+    <!-- Additional construction elements -->
+    <line x1="6" y1="14" x2="6" y2="18" stroke="url(#goldGradientHD)" stroke-width="1" stroke-linecap="round"/>
+    <line x1="6" y1="18" x2="10" y2="18" stroke="url(#goldGradientHD)" stroke-width="1" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Year/Established with enhanced styling -->
+  <text x="360" y="110" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="url(#goldGradientHD)" text-anchor="end">EST. 2015</text>
+  
+  <!-- Subtle background pattern -->
+  <g opacity="0.05">
+    <circle cx="350" cy="30" r="2" fill="url(#goldGradientHD)"/>
+    <circle cx="370" cy="50" r="1.5" fill="url(#goldGradientHD)"/>
+    <circle cx="360" cy="70" r="1" fill="url(#goldGradientHD)"/>
+  </g>
+</svg>
